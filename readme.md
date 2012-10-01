@@ -1,0 +1,4 @@
+- copy settings.orig.py to settings.py
+- edit your database informations
+- create a folder files, files/media & files/static in the project root
+- point the BASE_ROOT variable to where your files folder is
