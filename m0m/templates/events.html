@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block "content" %}
+    {% for e in events %}
+        <h2>{{ e.title }}</h2>
+        {{ e.description }}
+        {{ e.date }}
+        {% for f in e.files %}
+            blah    
+        {% endfor %}
+    {% endfor %}
+{% endblock %}
